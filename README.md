@@ -26,3 +26,6 @@ The tests should pass for any input, not just the ones provided in the test case
 Think carefully about the style of your code and how you would write these in a professional environment.
 
 When you are happy with your code, push your work up to your branch.
+
+There is no time limit, but please don't spend too long on this test, this is just to provide us
+something to discuss in an interview and shouldn't be a stressful task!
