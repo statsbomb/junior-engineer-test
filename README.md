@@ -1,6 +1,7 @@
 ### Getting Started
 
-After cloning this repo, checkout a branch and call it something sensible like your-name-tech-test.
+Fork this repo by hitting the fork button in the top right corner of the repositorys main page. Then clone the forked 
+version of the repo. After cloning the forked repo, checkout a branch and call it something sensible like your-name-tech-test.
 
 ### Overview
 In this repo there are 3 files, the technical test, associate unit tests and some sample data. 
