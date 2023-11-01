@@ -5,18 +5,12 @@ def read_csv_file(file_path):
     """
     Read a CSV file and return its content as a list of dictionaries.
     """
-    with open(file_path, 'r') as file:
-        reader = csv.reader(file)
-        headers = next(reader)
+
+    with open(file_path, encoding='utf-8') as c:
+        reader = csv.DictReader(c, delimiter=',')
         data = []
         for row in reader:
-            row_dict = {}
-            for i in range(len(headers)):
-                if i < len(row):
-                    row_dict[headers[i]] = row[i]
-                else:
-                    row_dict[headers[i]] = None  
-            data.append(row_dict)
+            data.append(row)
     return data
 
 def get_unique_teams(data):
